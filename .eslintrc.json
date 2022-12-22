@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-console": "off",
+    "indent": [1, "tab"],
+    "import/no-anonymous-default-export": "off"
+  }
 }
